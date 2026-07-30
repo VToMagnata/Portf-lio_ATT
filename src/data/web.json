@@ -1,0 +1,69 @@
+[
+  {
+    "imgFront": "img_TEST.png",
+    "img1": "img_TEST.png",
+    "img2": "img_TEST.png",
+    "name": "DashBord",
+    "about": "DashBord de gastos, assim como nos conformes ne meu irmao",
+    "descricao": "dsadnasjdiasdaojsdnaosndoasdoasdaosjdnoasndoasduashdoandosndjoandnsadusodjandjossandnsdnjaonsjdndnsadusodjandjossandnsdnjaonsjdndnsadusodjandjossandnsdnjaonsjdndnsadusodjandjossandnsdnjaonsjdn",
+    "objetivo": "dsjandosandoasdnoasndansdojasndoasnjdasodnoasndjoadjoasnd",
+    "links": {
+      "code": "",
+      "web": ""
+    },
+
+    "tecnologias": [
+      {
+        "name": "React",
+        "description": "sjadiasiadasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssaaasjadiasiadasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssaaa",
+        "icon": "react",
+        "color": "blue"
+      },
+      {
+        "name": "Tailwind CSS",
+        "description": "Estilização e responsividade da aplicação.",
+        "icon": "react",
+        "color": "blue"
+      },
+      {
+        "name": "Next.js",
+        "description": "Utilizado para estruturar a aplicação.",
+        "icon": "react",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "imgFront": "img_TEST.png",
+    "img1": "img_TEST.png",
+    "img2": "img_TEST.png",
+    "name": "Calculator",
+    "about": "Calculator de gastos, assim como nos conformes ne meu irmao",
+    "descricao": "...",
+    "objetivo": "...",
+    "links": {
+      "code": "",
+      "web": ""
+    },
+    "tecnologias": [
+      {
+        "name": "React",
+        "description": "Criação da interface.",
+        "icon": "react",
+        "color": "blue"
+      },
+      {
+        "name": "Tailwind CSS",
+        "description": "Estilização e responsividade da aplicação.",
+        "icon": "react",
+        "color": "blue"
+      },
+      {
+        "name": "Next.js",
+        "description": "Utilizado para estruturar a aplicação.",
+        "icon": "react",
+        "color": "blue"
+      }
+    ]
+  }
+]
