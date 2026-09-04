@@ -28,7 +28,7 @@ const Card = ({ name, value, openModal }: CardProps) => {
       className="
         relative
         flex flex-col items-center text-center
-        w-[12em] sm:w-[18em] md:w-auto xl:w-[30em]
+        w-[10em] sm:w-[18em] md:w-auto xl:w-[30em]
         h-[12rem] sm:h-[16em] md:h-[16rem] xl:h-[18rem]
         pt-8 md:pt-10 sm:mb-2
         p-4 md:p-6

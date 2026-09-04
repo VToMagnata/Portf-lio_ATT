@@ -1,35 +1,47 @@
 [
   {
-    "imgFront": "img_TEST.png",
-    "img1": "img_TEST.png",
-    "img2": "img_TEST.png",
-    "name": "DashBord",
-    "about": "DashBord de gastos, assim como nos conformes ne meu irmao",
-    "descricao": "dsadnasjdiasdaojsdnaosndoasdoasdaosjdnoasndoasduashdoandosndjoandnsadusodjandjossandnsdnjaonsjdndnsadusodjandjossandnsdnjaonsjdndnsadusodjandjossandnsdnjaonsjdndnsadusodjandjossandnsdnjaonsjdn",
-    "objetivo": "dsjandosandoasdnoasndansdojasndoasnjdasodnoasndjoadjoasnd",
+    "imgFront": "pc-flix.png",
+    "img1": "pc-flix.png",
+    "img2": "mobile-flix.png",
+    "name": "VT FLIX",
+    "about": "O VTFLIX é uma aplicação web desenvolvida com Next.js, React e TypeScript, integrada à API do TMDB para consumir e apresentar informações sobre filmes. O projeto possui busca por títulos, paginação, categorias de filmes e visualização de detalhes, com uma interface responsiva para desktop e mobile.",
+    "descricao": "VTFLIX é uma aplicação de filmes desenvolvida com Next.js, React e TypeScript, integrada à API do TMDB para exibir filmes, avaliações, buscas, categorias e detalhes em uma interface responsiva.",
+    "objetivo": "Criar uma plataforma de filmes moderna e responsiva, praticando o uso de Next.js, React, TypeScript e consumo de APIs, oferecendo uma experiência simples para pesquisar, navegar e visualizar informações de filme",
     "links": {
-      "code": "",
-      "web": ""
+      "code": "https://github.com/VToMagnata/VT-FLIX",
+      "web": "https://vt-flix.vercel.app"
     },
 
     "tecnologias": [
       {
+        "name": "Next.js",
+        "description": "Framework React utilizado para estruturar a aplicação, criar páginas e otimizar o desenvolvimento com recursos de roteamento e renderização.",
+        "icon": "nextjs",
+        "color": "white"
+      },
+      {
         "name": "React",
-        "description": "sjadiasiadasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssaaasjadiasiadasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssaaa",
+        "description": "Biblioteca utilizada para construir a interface do VTFLIX através de componentes reutilizáveis e gerenciamento de estados.",
         "icon": "react",
+        "color": "blue"
+      },
+      {
+        "name": "TypeScript",
+        "description": "Utilizado para adicionar tipagem ao projeto, tornando o código mais seguro, organizado e fácil de manter.",
+        "icon": "typescript",
         "color": "blue"
       },
       {
         "name": "Tailwind CSS",
-        "description": "Estilização e responsividade da aplicação.",
-        "icon": "react",
-        "color": "blue"
+        "description": "Utilizado para criar a interface do projeto de forma rápida, responsiva e totalmente personalizada através de classes utilitárias.",
+        "icon": "tailwind",
+        "color": "cyan"
       },
       {
-        "name": "Next.js",
-        "description": "Utilizado para estruturar a aplicação.",
-        "icon": "react",
-        "color": "blue"
+        "name": "Axios",
+        "description": "Biblioteca utilizada para realizar requisições HTTP e consumir os dados disponibilizados pela API do TMDB.",
+        "icon": "axios",
+        "color": "purple"
       }
     ]
   },

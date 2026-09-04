@@ -1,11 +1,16 @@
 import { FaReact } from "react-icons/fa";
-import { Bebas_Neue, Jost, Fjalla_One } from "next/font/google";
+import {
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiAxios,
+  SiThemoviedatabase,
+} from "react-icons/si";
+import { Fjalla_One, Roboto } from "next/font/google";
 
-const bebas = Bebas_Neue({ subsets: ["latin"], weight: "400" });
-
-const jost = Jost({
+const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "700"],
 });
 
 const fjalla = Fjalla_One({ subsets: ["latin"], weight: "400" });
@@ -19,6 +24,11 @@ type CardTecProps = {
 
 const icons = {
   react: FaReact,
+  nextjs: SiNextdotjs,
+  typescript: SiTypescript,
+  tailwind: SiTailwindcss,
+  axios: SiAxios,
+  tmdb: SiThemoviedatabase,
 };
 
 const CardTec = ({ name, description, icon, color }: CardTecProps) => {
@@ -31,7 +41,7 @@ const CardTec = ({ name, description, icon, color }: CardTecProps) => {
       </figure>
       <section className="flex flex-col min-w-0">
         <h1 className={`${fjalla.className} text-xl pb-2`}>{name}</h1>
-        <p className={`${fjalla.className} text-[0.8em] break-words`}>
+        <p className={`${roboto.className} text-[0.8em] break-words`}>
           {description}
         </p>
       </section>

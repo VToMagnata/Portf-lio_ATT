@@ -11,7 +11,7 @@ const Modal = ({ name, value, close }: ModalProps) => {
       onClick={close}
     >
       <main
-        className="w-[50em] max-w-[90%] bg-black p-10 rounded-3xl text-center origin-center animate-[modalOpen_0.7s_ease-out_forwards]"
+        className="overflow-x-auto w-[50em] max-w-[90%] h-[90%] bg-black p-10 rounded-3xl text-center origin-center animate-[modalOpen_0.7s_ease-out_forwards]"
         onClick={(e) => e.stopPropagation()}
       >
         <h1 className="text-3xl mb-6">{name}</h1>

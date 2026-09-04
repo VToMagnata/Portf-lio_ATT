@@ -1,5 +1,5 @@
 import { Globe, X, ChevronDown, ChevronUp, Braces } from "lucide-react";
-import { Bebas_Neue, Jost, Fjalla_One } from "next/font/google";
+import { Bebas_Neue, Jost, Fjalla_One, Roboto } from "next/font/google";
 import { useState } from "react";
 import { CardTec } from "./CardTec";
 
@@ -8,6 +8,11 @@ const bebas = Bebas_Neue({ subsets: ["latin"], weight: "400" });
 const jost = Jost({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
 });
 
 const fjalla = Fjalla_One({ subsets: ["latin"], weight: "400" });
@@ -53,11 +58,11 @@ const Modal = ({
 
   return (
     <main className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm">
-      <div className="relative flex h-[95%] w-full max-w-5xl overflow-hidden rounded-3xl border border-white/10 bg-[url('/rrt1.jpg')] bg-cover bg-center shadow-2xl">
+      <div className="overflow-x-auto relative flex h-[95%] w-full max-w-5xl sm:overflow-hidden rounded-3xl border border-white/10 bg-[url('/rrt1.jpg')] bg-cover bg-center shadow-2xl">
         {/* BOTÃO FECHAR */}
         <button
           onClick={close}
-          className="absolute right-6 top-6 z-20 text-white/80 transition hover:text-white cursor-pointer"
+          className="absolute right-3 top-3 z-20 text-white/80 transition hover:text-white cursor-pointer"
         >
           <X size={32} strokeWidth={1.5} />
         </button>
@@ -66,7 +71,9 @@ const Modal = ({
         <aside className="min-w-0 w-full text-start sm:w-1/2">
           {/* TÍTULO */}
           <h1
-            className={`${bebas.className} pl-14 pt-8 text-8xl tracking-wide text-white`}
+            className={`${bebas.className} pl-14 pt-8 text-8xl tracking-wide ${
+              title === "VT FLIX" ? "text-red-500" : "text-white"
+            }`}
           >
             {title}
           </h1>
@@ -76,12 +83,12 @@ const Modal = ({
             <img
               src={images.img1}
               alt=""
-              className="w-40 object-contain drop-shadow-2xl"
+              className="w-[10em] sm:w-[14em] object-contain drop-shadow-2xl"
             />
             <img
               src={images.img2}
               alt=""
-              className="w-40 object-contain drop-shadow-2xl"
+              className="w-[4.5em] sm:w-[6em] object-contain drop-shadow-2xl"
             />
           </figure>
 
@@ -118,7 +125,7 @@ const Modal = ({
                 </h2>
 
                 <p
-                  className={`${jost.className} pl-0 text-base leading-7 text-[#989ba2] break-words whitespace-normal`}
+                  className={`${roboto.className} pl-0 text-base leading-7 text-[#989ba2] break-words whitespace-normal`}
                 >
                   {focus.a && focus.o ? resumoD : value?.descricao}
                 </p>
@@ -156,7 +163,7 @@ const Modal = ({
                 </h2>
 
                 <p
-                  className={`${jost.className} text-base leading-7 text-[#989ba2] break-words whitespace-normal`}
+                  className={`${roboto.className} text-base leading-7 text-[#989ba2] break-words whitespace-normal`}
                 >
                   {focus.a && focus.o ? resumoO : value?.objetivo}
                 </p>
@@ -165,10 +172,34 @@ const Modal = ({
           </div>
         </aside>
 
+        <main className="sm:hidden absolute top-[130%] right-0 flex p-2 gap-2">
+          {/* BOTÃO */}
+          <button
+            onClick={() => window.open(links.web, "_blank")}
+            className={`${fjalla.className} cursor-pointer flex items-center gap-3 rounded-full border-2 border-white/80 bg-black/40 px-5 py-2 text-lg font-serif text-white backdrop-blur-sm transition hover:bg-white hover:text-black`}
+          >
+            Abrir
+            <Globe size={25} strokeWidth={1.5} />
+          </button>
+          <button
+            className={`${fjalla.className} cursor-pointer flex items-center gap-3 rounded-full border-2 border-white/80 bg-black/40 px-5 py-2 text-lg font-serif text-white backdrop-blur-sm transition hover:bg-white hover:text-black`}
+            onClick={() => window.open(links.code, "_blank")}
+          >
+            Code
+            <Braces />
+          </button>
+        </main>
+
         {/* LADO DIREITO */}
         <aside className="relative hidden w-1/2 items-center justify-center px-12 py-24 sm:flex">
           {/* PAINEL */}
-          <div className="h-full w-full p-8 flex flex-col gap-4 rounded-3xl border-2 border-[#cfd3da] bg-[radial-gradient(ellipse_at_top_left,rgba(115,113,123,0.35)_0%,rgba(41,44,48,0.18)_45%,transparent_100%)] shadow-[0_0_25px_rgba(255,255,255,0.08)]">
+          <div
+            className="overflow-x-auto h-full w-full p-8 flex flex-col gap-4 rounded-3xl border-2 border-[#cfd3da] bg-[radial-gradient(ellipse_at_top_left,rgba(115,113,123,0.35)_0%,rgba(41,44,48,0.18)_45%,transparent_100%)] shadow-[0_0_25px_rgba(255,255,255,0.08)] [&::-webkit-scrollbar]:h-2
+  [&::-webkit-scrollbar-track]:bg-transparent
+  [&::-webkit-scrollbar-thumb]:bg-white/20
+  [&::-webkit-scrollbar-thumb]:rounded-full
+  hover:[&::-webkit-scrollbar-thumb]:bg-white/40"
+          >
             {tecnologias.map((tec) => (
               <CardTec
                 key={tec.name}
@@ -190,7 +221,7 @@ const Modal = ({
           </button>
           <button
             className={`${fjalla.className} cursor-pointer absolute bottom-5 right-42 flex items-center gap-3 rounded-full border-2 border-white/80 bg-black/40 px-5 py-2 text-lg font-serif text-white backdrop-blur-sm transition hover:bg-white hover:text-black`}
-            onClick={() => window.open(links.web, "_blank")}
+            onClick={() => window.open(links.code, "_blank")}
           >
             Code
             <Braces />
