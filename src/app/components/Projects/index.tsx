@@ -52,8 +52,7 @@ const Projects = () => {
   return (
     <>
       <div className="flex h-full w-full items-center justify-center">
-        <div className="mt-30  sm:mt-0 relative grid h-auto w-[90%] grid-cols-1 place-items-start gap-10 rounded-xl bg-white/10 p-8 pt-20 backdrop-blur-sm sm:place-items-center lg:h-[90%] lg:grid-cols-2 lg:gap-10 lg:pt-20 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
-          <Navegator changeValue={changeValue} nowValue={nowValue} />
+        <div className="mt-30  sm:mt-0 relative grid h-auto w-[90%] grid-cols-1 place-items-start gap-10 rounded-xl bg-white/10 p-8 pt-20 backdrop-blur-sm sm:place-items-center lg:h-[90%] lg:grid-cols-2 lg:gap-10 lg:pt-5 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
 
           {webProjects.map((item, pos) => (
             <CardProject
