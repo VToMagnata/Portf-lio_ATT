@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
 
-## Getting Started
+Portfolio pessoal desenvolvido para apresentar meus projetos, conhecimentos e evolução como desenvolvedor web.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Zustand
+* Lucide React
+* React Icons
+
+## ✨ Funcionalidades
+
+* Apresentação pessoal
+* Seção sobre mim
+* Formação
+* Objetivos profissionais
+* Tecnologias
+* Apresentação de projetos
+* Modal com detalhes dos projetos
+* Links para GitHub e projetos publicados
+* Layout responsivo para desktop e mobile
+
+## 📁 Estrutura
+
+```text
+src/
+├── app/
+│   ├── components/
+│   └── name
+│
+├── data/
+│   └── web.json
+│
+└── store/
+    └── Controler.ts
+```
+
+Os projetos apresentados no portfolio são organizados através de um arquivo JSON, facilitando a manutenção e a adição de novos projetos.
+
+O gerenciamento de estado da aplicação é realizado com Zustand.
+
+## 🌐 Deploy
+
+O projeto está hospedado na Vercel.
+
+[Visitar Portfolio](https://portf-lio-att-three.vercel.app)
+
+## 🎯 Objetivo
+
+Criar um portfolio moderno, responsivo e organizado para apresentar meus projetos e conhecimentos em desenvolvimento web, utilizando tecnologias modernas do ecossistema React.
+
+## 💻 Instalação e execução
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/VToMagnata/Portf-lio_ATT.git
+```
+
+### 2. Entre na pasta do projeto
+
+```bash
+cd Portf-lio_ATT
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Execute o projeto em desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Acesse no navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Build de produção
 
-## Learn More
+Para gerar a versão de produção:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Depois execute:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+O projeto ficará disponível em:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+http://localhost:3000
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Autor
+
+**Vitor Losina Trevisan**
+
+Estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web.
