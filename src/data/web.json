@@ -1,0 +1,161 @@
+[
+{
+"imgFront": "pc-flix.png",
+"img1": "pc-flix.png",
+"img2": "mobile-flix.png",
+"name": "VT FLIX",
+"about": "O VTFLIX é uma aplicação web desenvolvida com Next.js, React e TypeScript, integrada à API do TMDB para consumir e apresentar informações sobre filmes. O projeto possui busca por títulos, paginação, categorias de filmes e visualização de detalhes, com uma interface responsiva para desktop e mobile.",
+"descricao": "VTFLIX é uma aplicação de filmes desenvolvida com Next.js, React e TypeScript, integrada à API do TMDB para exibir filmes, avaliações, buscas, categorias e detalhes em uma interface responsiva.",
+"objetivo": "Criar uma plataforma de filmes moderna e responsiva, praticando o uso de Next.js, React, TypeScript e consumo de APIs, oferecendo uma experiência simples para pesquisar, navegar e visualizar informações de filme.",
+"links": {
+"code": "https://github.com/VToMagnata/VT-FLIX",
+"web": "https://vt-flix.vercel.app"
+},
+"tecnologias": [
+{
+"name": "Next.js",
+"description": "Framework React utilizado para estruturar a aplicação, criar páginas e otimizar o desenvolvimento com recursos de roteamento e renderização.",
+"icon": "nextjs",
+"color": "white"
+},
+{
+"name": "React",
+"description": "Biblioteca utilizada para construir a interface do VTFLIX através de componentes reutilizáveis e gerenciamento de estados.",
+"icon": "react",
+"color": "blue"
+},
+{
+"name": "TypeScript",
+"description": "Utilizado para adicionar tipagem ao projeto, tornando o código mais seguro, organizado e fácil de manter.",
+"icon": "typescript",
+"color": "blue"
+},
+{
+"name": "Tailwind CSS",
+"description": "Utilizado para criar a interface do projeto de forma rápida, responsiva e totalmente personalizada através de classes utilitárias.",
+"icon": "tailwind",
+"color": "cyan"
+},
+{
+"name": "Axios",
+"description": "Biblioteca utilizada para realizar requisições HTTP e consumir os dados disponibilizados pela API do TMDB.",
+"icon": "axios",
+"color": "purple"
+}
+]
+},
+{
+"imgFront": "TO-pc.png",
+"img1": "TO-pc.png",
+"img2": "TO-mobile.png",
+"name": "To Do List FULL-STACK",
+"about": "Uma aplicação de lista de tarefas desenvolvida com Next.js, React e TypeScript, integrada ao Prisma e PostgreSQL para armazenar e gerenciar as tarefas.",
+"descricao": "Aplicação full-stack de lista de tarefas com criação, edição e exclusão de tarefas, utilizando Prisma ORM para comunicação com o banco de dados PostgreSQL.",
+"objetivo": "Praticar o desenvolvimento de aplicações full-stack com Next.js, React e TypeScript, aprendendo na prática a utilização do Prisma ORM e a integração com banco de dados PostgreSQL.",
+"links": {
+"code": "https://github.com/VToMagnata/Front-Back-To-Do-List",
+"web": "https://front-back-to-do-list-9pfi.vercel.app"
+},
+"tecnologias": [
+{
+"name": "Next.js",
+"description": "Estruturação da aplicação, criação de rotas e renderização das páginas.",
+"icon": "nextjs",
+"color": "black"
+},
+{
+"name": "React",
+"description": "Utilizado para criar a interface e os componentes reutilizáveis da aplicação.",
+"icon": "react",
+"color": "blue"
+},
+{
+"name": "TypeScript",
+"description": "Utilizado para adicionar tipagem ao projeto e tornar o código mais seguro e organizado.",
+"icon": "typescript",
+"color": "blue"
+},
+{
+"name": "Tailwind CSS",
+"description": "Utilizado para estilização e criação de uma interface responsiva.",
+"icon": "tailwind",
+"color": "cyan"
+},
+{
+"name": "shadcn/ui",
+"description": "Biblioteca utilizada para criar componentes de interface acessíveis, reutilizáveis e consistentes.",
+"icon": "shadcn",
+"color": "black"
+},
+{
+"name": "Prisma",
+"description": "ORM utilizado para realizar a comunicação entre a aplicação e o banco de dados de forma tipada e organizada.",
+"icon": "prisma",
+"color": "slate"
+},
+{
+"name": "PostgreSQL",
+"description": "Banco de dados relacional utilizado para armazenar e gerenciar as tarefas da aplicação.",
+"icon": "postgresql",
+"color": "blue"
+}
+]
+},
+{
+"imgFront": "climaNote.png",
+"img1": "climaNote.png",
+"img2": "climaCelular.png",
+"name": "Previsão do Tempo",
+"about": "Aplicação web de previsão do tempo desenvolvida com React, permitindo consultar informações climáticas de diferentes cidades de forma simples e intuitiva.",
+"descricao": "Aplicação de previsão do tempo desenvolvida com React e integrada a uma API para consultar e apresentar informações climáticas, como temperatura e condições do tempo.",
+"objetivo": "Praticar o desenvolvimento de aplicações em React, trabalhando com consumo de APIs, requisições HTTP, gerenciamento de estados e apresentação de dados em uma interface responsiva.",
+"links": {
+"code": "https://github.com/VToMagnata/Previsao",
+"web": "https://previsao-gamma.vercel.app"
+},
+"tecnologias": [
+{
+"name": "React",
+"description": "Biblioteca utilizada para construir a interface da aplicação através de componentes reutilizáveis e gerenciamento de estados.",
+"icon": "react",
+"color": "blue"
+},
+{
+"name": "Vite",
+"description": "Ferramenta utilizada para configurar e executar o projeto React com um ambiente de desenvolvimento rápido e otimizado.",
+"icon": "vite",
+"color": "purple"
+},
+{
+"name": "JavaScript",
+"description": "Linguagem utilizada para implementar a lógica da aplicação, manipular os dados recebidos pela API e controlar as interações do usuário.",
+"icon": "javascript",
+"color": "yellow"
+},
+{
+"name": "API",
+"description": "Utilizada para obter informações meteorológicas e apresentar dados atualizados sobre as condições climáticas.",
+"icon": "api",
+"color": "green"
+},
+{
+"name": "Axios",
+"description": "Biblioteca utilizada para realizar requisições HTTP e consumir os dados fornecidos pela API de previsão do tempo.",
+"icon": "axios",
+"color": "purple"
+},
+{
+"name": "CSS",
+"description": "Utilizado para estilizar a aplicação e criar uma interface adaptada para diferentes tamanhos de tela.",
+"icon": "css",
+"color": "blue"
+},
+{
+"name": "Font Awesome",
+"description": "Biblioteca utilizada para adicionar ícones à interface e facilitar a visualização das informações climáticas.",
+"icon": "fontawesome",
+"color": "blue"
+}
+]
+}
+]
